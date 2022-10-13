@@ -3,6 +3,7 @@ on:
   pull_request:
     types: [opened,synchronize,reopened,closed]
 
+
 jobs:
   build-vote:
     name: Build and Push `vote`
